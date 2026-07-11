@@ -1,0 +1,20 @@
+# utils/os_utils.py
+import os
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+def get_downloads_folder():
+    logger.info("Getting downloads folder")
+    return os.path.expanduser("~/Downloads")
+
+def create_directory_if_not_exists(path):
+    logger.debug(f"Creating directory: {path}")
+    if not os.path.exists(path):
+        os.makedirs(path)
