@@ -1,0 +1,5 @@
+os
+pathlib
+hashlib
+shutil
+tkinter  # or CustomTkinter if you prefer a modern GUI library
