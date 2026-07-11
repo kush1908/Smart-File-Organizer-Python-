@@ -81,4 +81,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Contact
 
-For any questions or feedback, feel free to contact me at [your_email@example.com].
+For any questions or feedback, feel free to contact me at Kush.kalia1908@gmail.com.
